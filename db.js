@@ -1,9 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Types.ObjectId;
-
-mongoose.connect("mongodb+srv://Afza1:Afzal123@secret.b5cmo.mongodb.net/SkillUp");
-
 const userSchema = new Schema({
     firstName: { type: String, required: true },
     lastName: { type: String },
